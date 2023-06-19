@@ -18,12 +18,13 @@ Z = X + Y**2
 x = [0, 1, 0, 1, 0, 1]
 y = [0, 0, 1, 1, 2, 2]
 z = [0, 1, 1, 2, 2, 3]
-# plt.plot(x, y)
-imgplot = plt.imshow(img)
-# plt.xlabel("x")
-# plt.ylabel("y")
-# plt.xticks()
-# ax.scatter(x, y, z, color='black')  # 绘制3D散点图
-# ax.plot_trisurf(x, y, z)  # 绘制3D曲平面
+plt.plot(x, y)
+# imgplot = plt.imshow(img)
+plt.xlabel("x")
+plt.ylabel("y")
+plt.xticks()
+ax.scatter(x, y, z, color='black')  # 绘制3D散点图
+ax.plot_trisurf(x, y, z)  # 绘制3D曲平面
+plt.grid()
 
 plt.show()
