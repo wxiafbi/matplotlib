@@ -7,5 +7,5 @@ print(repr(img))
 print(len(img))
 imgplot = plt.imshow(img)
 plt.plot([500, 600, 700], [500, 600, 700], marker='v', color='C99')
-
+plt.ylim(1600,0)
 plt.show()
