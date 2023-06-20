@@ -30,7 +30,7 @@ con = ConnectionPatch(
     "data",
     axesA=axl,
     axesB=axr,
-    color="C0",
+    color="orange",
     ls="dotted",
 )
 fig.add_artist(con)
